@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <table border="1" cellpadding="10" cellspacing="10">
+        <caption align="top">Titre Tableau</caption>
+        <tr>
+            <th>Titre Cellule</th>
+            <th>Titre Cellule</th>
+            <th>Titre Cellule</th>
+            <th>Titre Cellule</th>
+        </tr >
+        <tr valign="bottom">
+            <td rowspan="2">Cellule</td>
+            <td>Cellule</td>
+            <td>Cellule</td>
+            <td>Cellule</td>
+        </tr>
+
+        <tr>
+            <td>Cellule</td>
+            <td>Cellule</td>
+            <td>Cellule</td>
+        </tr>
+
+        <tr align="right">
+            <td>Cellule</td>
+            <td>Cellule</td>
+            <td colspan="2" >Cellule</td>
+        </tr>
+    </table>
+
+    <hr/>
+ 
+    <table border="1">
+        <caption>Tableau utilisant thead, tfoot, et tbody</caption>
+        <thead>
+            <tr>
+                <th>Contenu d'en-tête 1</th>
+                <th>Contenu d'en-tête 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Contenu interne 1</td>
+                <td>Contenu interne 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Pied de tableau 1</td>
+                <td>Pied de tableau 2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr/>
+      
+    <table border="1">
+    <caption>Tableau utilisant colgroup</caption>
+    <colgroup span="4" style="background-color:red"></colgroup>
+        <tr>
+            <th>Pays</th>
+            <th>Capitales</th>
+            <th>Population</th>
+            <th>Langue</th>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>Washington D.C.</td>
+            <td>309 millions</td>
+            <td>Anglais</td>
+        </tr>
+        <tr>
+            <td>Suède</td>
+            <td>Stockholm</td>
+            <td>9 millions</td>
+            <td>Suédois</td>
+        </tr>
+    </table>
+
+    <hr/>
+      
+    <table border="1">
+    <caption>Tableau utilisant colgroup et col</caption>
+    <colgroup>
+        <col style="background-color:red">
+        <col span="2" style="background-color:green">
+    </colgroup>
+    <tr>
+        <th>Citron vert</th>
+        <th>Citron</th>
+        <th>Orange</th>
+    </tr>
+    <tr>
+        <td>Vert</td>
+        <td>Jaune</td>
+        <td>Orange</td>
+    </tr>
+    </table>
+</body>
+</html>
